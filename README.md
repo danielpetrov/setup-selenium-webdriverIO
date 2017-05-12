@@ -1,3 +1,9 @@
+## Setup testing tools locally
+
+open cmd as administrator and run:
+
+`npm install --global --production windows-build-tools`
+
 ## Testing in Chrome:
 
 ![chrome logo](images/chrome.jpg)
@@ -15,6 +21,8 @@
 `npm run start-ie-server`
 #### Run tests
 `npm run start`
+http://stackoverflow.com/questions/14952348/not-able-to-launch-ie-browser-using-selenium2-webdriver-with-java
+http://stackoverflow.com/questions/37456099/protractor-test-in-ie
 
 First, check your default zoom level in Internet Explorer. If it's not 100% then do the following steps:
 
