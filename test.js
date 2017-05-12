@@ -1,7 +1,9 @@
 var webdriverio = require('webdriverio');
 var options = {
     desiredCapabilities: {
-        browserName: 'firefox'
+        browserName: 'internet explorer',
+        platform: 'windows',
+        version: 11
     }
 };
 webdriverio

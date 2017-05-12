@@ -2,9 +2,10 @@
   "name": "selenium-webdriverIO",
   "version": "0.0.1",
   "scripts": {
-    "start-chrome": "sudo java -jar -Dwebdriver.chrome.driver='./chromedriver' selenium-server-standalone-3.0.1.jar",
-    "start-mozilla": "sudo java -jar -Dwebdriver.gecko.driver='./geckodriver' selenium-server-standalone-3.0.1.jar",
-    "start": "babel --copy-files --out-dir dist test.js"
+    "start-chrome": "java -jar -Dwebdriver.chrome.driver=node_modules/chromedriver/lib/chromedriver/chromedriver.exe selenium-server-standalone-3.0.1.jar",
+    "start-ie": "java -jar -Dwebdriver.ie.driver=IEDriverServer.exe selenium-server-standalone-3.0.1.jar",
+    "build": "babel --copy-files --out-dir dist test.js",
+    "start": "node test.js"
   },
   "babel": {
     "presets": [
@@ -15,6 +16,9 @@
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
+    "chromedriver": "^2.29.0",
+    "geckodriver": "^1.6.1",
+    "selenium-webdriver": "^3.4.0",
     "tape": "^4.6.3",
     "webdriverio": "^4.8.0"
   }
