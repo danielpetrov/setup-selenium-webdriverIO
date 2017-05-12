@@ -1,13 +1,14 @@
-Testing in Chrome:
-
+##Testing in Chrome:
+![chrome logo](images/chrome.jpg)
+###Start selenium server locally:
 * terminal-1
 `npm run start-chrome-server`
 * terminal-2
 `npm run start`
 
-Testing in IE:
-
-* terminal-1
+##Testing in IE:
+![ie logo](images/ie.jpg)
+###Start selenium server locally:
 `npm run start-ie-server`
 * terminal-2
 `npm run start`
