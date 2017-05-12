@@ -2,8 +2,8 @@
   "name": "selenium-webdriverIO",
   "version": "0.0.1",
   "scripts": {
-    "start-chrome": "java -jar -Dwebdriver.chrome.driver=node_modules/chromedriver/lib/chromedriver/chromedriver.exe selenium-server-standalone-3.0.1.jar",
-    "start-ie": "java -jar -Dwebdriver.ie.driver=IEDriverServer.exe selenium-server-standalone-3.0.1.jar",
+    "start-chrome-server": "java -jar -Dwebdriver.chrome.driver=node_modules/chromedriver/lib/chromedriver/chromedriver.exe selenium-server-standalone-3.0.1.jar",
+    "start-ie-server": "java -jar -Dwebdriver.ie.driver=IEDriverServer.exe selenium-server-standalone-3.0.1.jar",
     "build": "babel --copy-files --out-dir dist test.js",
     "start": "node test.js"
   },

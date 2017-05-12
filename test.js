@@ -3,7 +3,8 @@ var options = {
     desiredCapabilities: {
         browserName: 'internet explorer',
         platform: 'windows',
-        version: 11
+        version: 11,
+        ensureCleanSession: true
     }
 };
 webdriverio
