@@ -1,5 +1,7 @@
 ##Testing in Chrome:
+
 ![chrome logo](images/chrome.jpg)
+
 ###Start selenium server locally:
 * terminal-1
 `npm run start-chrome-server`
@@ -7,7 +9,9 @@
 `npm run start`
 
 ##Testing in IE:
+
 ![ie logo](images/ie.jpg)
+
 ###Start selenium server locally:
 `npm run start-ie-server`
 * terminal-2
