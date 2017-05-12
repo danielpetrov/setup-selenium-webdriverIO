@@ -2,19 +2,18 @@
 
 ![chrome logo](images/chrome.jpg)
 
-### Start selenium server locally:
-* terminal-1
+#### Start selenium server locally:
 `npm run start-chrome-server`
-* terminal-2
+#### Run tests
 `npm run start`
 
 ## Testing in IE:
 
 ![ie logo](images/ie.jpg)
 
-### Start selenium server locally:
+#### Start selenium server locally:
 `npm run start-ie-server`
-* terminal-2
+#### Run tests
 `npm run start`
 
 First, check your default zoom level in Internet Explorer. If it's not 100% then do the following steps:
